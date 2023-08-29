@@ -1,0 +1,93 @@
+
+.topnav-right{
+    color: rgb(235, 235, 235);
+    
+    padding-left: 2vw;
+}
+.intro{
+    background-color: rgb(0, 0, 0);
+    padding: 100px;
+    border-radius: 20px;
+    opacity: 0.85;
+    height: 500px;
+
+}
+
+.hello{
+    font-size: 2vw;
+    color: rgb(228, 110, 0);
+    text-align: center;
+}
+.box{
+    background-color: rgb(31, 32, 44);
+}
+.box {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 45%;
+   
+  }
+  
+  img {
+    width: 100%; /* takes the 100 % width of its container (.box div)*/
+    height: 100%; /* takes the 100 % height of its container (.box div)*/
+    border-radius: 50%;
+    align-items: center;
+    
+  }
+
+
+  a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* Header */
+.header{
+    background: transparent;
+  backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+/* Logo */
+.logo{
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+/* Menu Icon */
+.hamb{
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}/* Style label tag */
+  
+ /* Responsiveness */
+@media (min-width: 768px) {
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+    .menu li{
+        float: left;
+    }
+    .menu a:hover{
+        background-color: transparent;
+        color: orange;
+
+    }
+
+    .hamb{
+        display: none;
+    }
+}
